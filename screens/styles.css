@@ -220,7 +220,7 @@ body {
   transition: transform 0.2s linear 0.2s, opacity 0.1s linear 0.2s;
 }
 
-.pokemon__img {
+.team__img {
   position: absolute;
   bottom: 30vh;
   right: 15%;
@@ -238,7 +238,7 @@ body {
   opacity: 0;
 }
 
-.flex__container.animate--start .pokemon__img {
+.flex__container.animate--start .team__img {
   transform: translate3d(-200px, 0, 0);
   opacity: 0;
 }
@@ -258,7 +258,7 @@ body {
   opacity: 0;
 }
 
-.flex__container.animate--end .pokemon__img {
+.flex__container.animate--end .team__img {
   transform: translate3d(200px, 0, 0);
   opacity: 0;
 }
