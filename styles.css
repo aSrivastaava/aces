@@ -19,6 +19,22 @@ body {
   background-color: #fafafa;
 }
 
+.logo {
+  height: 10vh;
+}
+
+.logo-img {
+  margin-left: 45vw;
+  margin-top: -5vh;
+  height: 10vh;
+  width: 5vw;
+  transform: rotate(-10deg);
+}
+
+.logo-img:hover {
+  transform: rotate(10deg);
+}
+
 @-webkit-keyframes swinging {
   0% {
     -webkit-transform: rotate(10deg);
