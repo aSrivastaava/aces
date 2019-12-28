@@ -74,10 +74,18 @@ body {
 }
 
 .text--sub {
-  font-size: 12px;
+  font-size: 25px;
   letter-spacing: 0.5rem;
   text-transform: uppercase;
   margin-bottom: 40px;
+}
+
+.text--sub a {
+  color: white;
+}
+
+.text--sub a:link {
+  text-decoration: none;
 }
 
 .text--big {

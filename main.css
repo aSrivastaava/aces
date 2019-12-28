@@ -331,7 +331,7 @@ p {
 }
 .main-heading-wrapper {
   position: relative;
-  margin-top: 76px;
+  margin-top: 126px;
   margin-bottom: 76px;
 }
 .object {
@@ -422,7 +422,9 @@ p {
   padding: 36px 30px 21px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.09);
   background-color: white;
+  overflow: auto;
   text-align: left;
+  text-overflow: inherit;
 }
 .setup-pill.dark {
   background-color: #333;
