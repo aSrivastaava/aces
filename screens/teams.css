@@ -8,8 +8,9 @@
 
 .slider__navi {
   position: absolute;
-  top: 50%;
-  right: 20px;
+  display: flex;
+  top: 2.5%;
+  flex-direction: row;
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
@@ -22,20 +23,47 @@
   text-decoration: none;
   display: block;
   height: 20px;
-  width: 60px;
-  margin: 35px 5px;
-  text-align: right;
+  width: 13.5vw;
+  margin: 0 5px 0 5px;
+  text-align: center;
   text-indent: -1vw;
   box-shadow: none;
   border: none;
-  background: rgba(0, 0, 0, 0.2);
+  color: rgb(255, 255, 255);
+}
+.slider__navi a.gt_slide {
+  background: rgb(192, 128, 64);
+}
+.slider__navi a.ct_slide {
+  background: rgb(0, 174, 239);
+}
+
+.slider__navi a.st_slide {
+  background: rgb(115, 54, 53);
+}
+.slider__navi a.pt_slide {
+  background: rgb(91, 10, 145);
+}
+.slider__navi a.nt_slide {
+  background: rgb(0, 64, 64);
+}
+.slider__navi a.tt_slide {
+  background: rgb(141, 198, 63);
+}
+.slider__navi a.ft_slide {
+  background: rgb(146, 238, 146);
 }
 .slider__navi a:link {
   text-decoration: none;
 }
+.slider__navi a:hover {
+  color: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
+}
 
 .slider__navi a.active {
   background: rgba(255, 255, 255, 1);
+  color: rgb(0, 0, 0);
 }
 
 body {
@@ -269,4 +297,66 @@ body {
 .flex__container.animate--end .team__img {
   transform: translate3d(200px, 0, 0);
   opacity: 0;
+}
+
+/* Experimental slider*/
+
+.slider__navi_2 {
+  position: absolute;
+  display: flex;
+  bottom: 0%;
+  flex-direction: row;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  z-index: 999;
+}
+
+.slider__navi_2 a {
+  text-decoration: none;
+  display: block;
+  height: 20px;
+  width: 13.5vw;
+  margin: 0 5px 0 5px;
+  text-align: center;
+  text-indent: -1vw;
+  box-shadow: none;
+  border: none;
+  color: rgb(255, 255, 255);
+}
+.slider__navi_2 a.gt_slide {
+  background: rgb(192, 128, 64);
+}
+.slider__navi_2 a.ct_slide {
+  background: rgb(0, 174, 239);
+}
+
+.slider__navi_2 a.st_slide {
+  background: rgb(115, 54, 53);
+}
+.slider__navi_2 a.pt_slide {
+  background: rgb(91, 10, 145);
+}
+.slider__navi_2 a.nt_slide {
+  background: rgb(0, 64, 64);
+}
+.slider__navi_2 a.tt_slide {
+  background: rgb(141, 198, 63);
+}
+.slider__navi_2 a.ft_slide {
+  background: rgb(146, 238, 146);
+}
+.slider__navi_2 a:link {
+  text-decoration: none;
+}
+.slider__navi_2 a:hover {
+  color: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
+}
+
+.slider__navi_2 a.active {
+  background: rgba(255, 255, 255, 1);
+  color: rgb(0, 0, 0);
 }
