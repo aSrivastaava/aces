@@ -58,12 +58,15 @@
               good. They’re main agenda is to create a group of individuals with
               extraordinary thinking, along with a creative perspective on life.
             </p>
-            <!-- <button type="button" class="popup-btn">Show Popup</button> -->
           </div>
+
           <p class="text__background">Graphics</p>
         </div>
         <div class="flex__item flex__item--right"></div>
         <img class="team__img" src="../images/ACES_GRAPHIC.png" />
+        <button type="button" class="popup-btn team__img">
+          Show Members
+        </button>
       </div>
       <div
         class="flex__container flex--culturalTeam animate--start"
@@ -109,6 +112,9 @@
         </div>
         <div class="flex__item flex__item--right"></div>
         <img class="team__img" src="../images/ACES_NON_TECH.png" />
+        <button type="button" class="popup-btn team__img">
+          Show Members
+        </button>
       </div>
       <div
         class="flex__container flex--socialTeam animate--start"
@@ -145,6 +151,9 @@
         </div>
         <div class="flex__item flex__item--right"></div>
         <img class="team__img" src="../images/ACES_SOCIAL.png" />
+        <button type="button" class="popup-btn team__img">
+          Show Members
+        </button>
       </div>
       <div
         class="flex__container flex--publicityTeam animate--start"
@@ -182,6 +191,9 @@
         </div>
         <div class="flex__item flex__item--right"></div>
         <img class="team__img" src="../images/ACES_PUBLICITY.png" />
+        <button type="button" class="popup-btn team__img">
+          Show Members
+        </button>
       </div>
       <div
         class="flex__container flex--newsletterTeam animate--start"
@@ -219,6 +231,9 @@
         </div>
         <div class="flex__item flex__item--right"></div>
         <img class="team__img" src="../images/ACES_NEWSLETTER.png" />
+        <button type="button" class="popup-btn team__img">
+          Show Members
+        </button>
       </div>
       <div
         class="flex__container flex--technicalTeam flex--active"
@@ -259,6 +274,9 @@
         </div>
         <div class="flex__item flex__item--right"></div>
         <img class="team__img" src="../images/ACES_TECH.png" />
+        <button type="button" class="popup-btn team__img">
+          Show Members
+        </button>
       </div>
       <div
         class="flex__container flex--financeTeam animate--start"
@@ -299,6 +317,14 @@
         </div>
         <div class="flex__item flex__item--right"></div>
         <img class="team__img" src="../images/ACES_FINANCE.png" />
+        <button
+          type="button"
+          class="popup-btn team__img"
+          data-toggle="modal"
+          data-target="#modalADT"
+        >
+          Show Members
+        </button>
       </div>
     </div>
 
@@ -307,10 +333,32 @@
       <a href="" class="slide-nav gt_slide" data-slide="1">Graphics</a>
       <a href="" class="slide-nav pt_slide" data-slide="4">Publicity</a>
       <a href="" class="slide-nav ct_slide" data-slide="2">Cultural</a>
-      <a href="" class="slide-nav nt_slide" data-slide="5">Newletter</a>
+      <a href="" class="slide-nav nt_slide" data-slide="5">Newsletter</a>
       <a href="" class="slide-nav active tt_slide" data-slide="6">Technical</a>
       <a href="" class="slide-nav ft_slide" data-slide="7">Finance</a>
     </div>
+
+    <!-- Modal info -->
+
+    <div class="popups-cont" id="modalADT">
+      <div class="popups-cont__overlay"></div>
+      <div class="popup">
+        <div class="popup__pieces"></div>
+        <div class="popup__content">
+          <div class="popup__close"></div>
+          <h3 class="popup__heading">Shattered Popup</h3>
+          <p class="popup__text">
+            Works with any popup width and height (auto). Whole animation and
+            triangulation made purely with css (SCSS). Javascript used only to
+            trigger classes (I could do it css only with checkbox, but I'm tired
+            of this crap). Requires browser with clip-path: polygon support.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- <script src="./modal.js"></script> -->
+
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"

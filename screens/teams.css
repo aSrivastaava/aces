@@ -13,7 +13,7 @@
 .slider__navi {
   position: absolute;
   display: flex;
-  top: 5vh;
+  bottom: 5vh;
   flex-direction: row;
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
