@@ -1770,3 +1770,12 @@ html.w-mod-js *[data-ix="awwwwwards"] {
         width: 25%;
     }
  }
+
+ .vision{
+   font-size: 45px;
+ }
+
+ .vision p{
+   font-size: 22px;
+   line-height: 1.3;
+ }

@@ -15,6 +15,21 @@ $break-small: 780px;
     overflow: hidden;
   }
 
+  .logo {
+    position: absolute;
+    left: 50vw;
+    top: 1vh;
+    z-index: 999;
+  }
+
+  .logo-img {
+    width: 15%;
+  }
+
+  .logo-img:hover {
+    transform: rotate(10deg);
+  }
+
   .slider__navi {
     position: absolute;
     display: flex;
@@ -184,7 +199,7 @@ $break-small: 780px;
     transition: transform 0.1s linear 0.4s;
     opacity: 0;
     position: relative;
-    text-overflow: clip;
+    text-overflow: ellipsis;
   }
 
   .flex__item--right {

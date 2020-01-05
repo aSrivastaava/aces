@@ -1,115 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css"
     />
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="./apply.css" />
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
-
-    <link
-      rel="stylesheet"
-      href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
-    />
-    <link
-      href="http://fonts.googleapis.com/css?family=Varela+Round"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.13.1/jquery.validate.min.js"></script>
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1"
-    />
-
-    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-
-    <title>ACES | Join</title>
+    <title>ACES | Apply</title>
   </head>
 
   <body>
-    <div class="text-center" style="padding:50px 0">
-      <div class="logo">register</div>
-      <!-- Main Form -->
-      <!-- <div class="login-form-1">
-        <form id="register-form" class="text-left">
-          <div class="login-form-main-message"></div>
-          <div class="main-login-form">
-            <div class="login-group">
-              <div class="form-group">
-                <label for="reg_username" class="sr-only">Email address</label>
-                <input type="text" class="form-control" id="reg_username" name="reg_username" placeholder="username" />
-              </div>
-              <div class="form-group">
-                <label for="reg_password" class="sr-only">Password</label>
-                <input type="password" class="form-control" id="reg_password" name="reg_password" placeholder="password" />
-              </div>
-              <div class="form-group">
-                <label for="reg_password_confirm" class="sr-only">Password Confirm</label>
-                <input type="password" class="form-control" id="reg_password_confirm" name="reg_password_confirm"
-                  placeholder="confirm password" />
-              </div>
-    
-              <div class="form-group">
-                <label for="reg_email" class="sr-only">Email</label>
-                <input type="text" class="form-control" id="reg_email" name="reg_email" placeholder="email" />
-              </div>
-              <div class="form-group">
-                <label for="reg_fullname" class="sr-only">Full Name</label>
-                <input type="text" class="form-control" id="reg_fullname" name="reg_fullname" placeholder="full name" />
-              </div>
-    
-              <div class="form-group login-group-checkbox">
-                <input type="radio" class="" name="reg_gender" id="male" placeholder="username" />
-                <label for="male">male</label>
-    
-                <input type="radio" class="" name="reg_gender" id="female" placeholder="username" />
-                <label for="female">female</label>
-              </div>
-    
-              <div class="form-group login-group-checkbox">
-                <input type="checkbox" class="" id="reg_agree" name="reg_agree" />
-                <label for="reg_agree">i agree with <a href="#">terms</a></label>
+    <a href="../index2.html">
+      <img src="../images/logo (2).png" class="logo col-md-4" />
+    </a>
+    <div class="container register">
+      <div class="row">
+        <div class="col-md-4 register-left">
+          <a href="../index2.html">
+            <img src="../images/ACES_logo.png" alt="" />
+          </a>
+
+          <h3>Welcome</h3>
+          <!-- <p>Register yourself as ACES. </p> -->
+          <!-- <input type="submit" name="" value="Login" /><br /> -->
+        </div>
+        <div class="col-md-8 register-right">
+          <!-- <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
+              aria-selected="true">Volunteer</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
+              aria-selected="false">Member</a>
+          </li>
+        </ul> -->
+          <div class="tab-content" id="myTabContent">
+            <div
+              class="tab-pane fade show active"
+              id="home"
+              role="tabpanel"
+              aria-labelledby="home-tab"
+            >
+              <h3 class="register-heading">Apply as a Member</h3>
+              <div class="row register-form">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="First Name *"
+                      value=""
+                    />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Last Name *"
+                      value=""
+                    />
+                  </div>
+                  <div class="form-group">
+                    <div class="maxl col-md-6">
+                      <label class="radio">
+                        <input type="radio" name="class" value="CSE1" />
+                        <span> CSE 1 </span>
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="class" value="CSE2" />
+                        <span>CSE 2 </span>
+                      </label>
+                      <label class="radio ">
+                        <input type="radio" name="class" value="CSE3" />
+                        <span>CSE 3 </span>
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="class" value="CSE4" />
+                        <span>CSE 4 </span>
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="class" value="CSE5" />
+                        <span>CSE 5 </span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="Your Email *"
+                      value=""
+                    />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      minlength="10"
+                      maxlength="10"
+                      name="txtEmpPhone"
+                      class="form-control"
+                      placeholder="Your Phone *"
+                      value=""
+                    />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Roll Number *"
+                      value=""
+                    />
+                  </div>
+                  <div class="form-group">
+                    <div class="maxl">
+                      <label class="radio inline">
+                        <input
+                          type="radio"
+                          name="gender"
+                          value="male"
+                          checked
+                        />
+                        <span> Male </span>
+                      </label>
+                      <label class="radio inline">
+                        <input type="radio" name="gender" value="female" />
+                        <span>Female </span>
+                      </label>
+                    </div>
+                  </div>
+                  <!-- <div class="form-group">
+                  <select class="form-control">
+                    <option class="hidden" selected disabled>Please select your Sequrity Question</option>
+                    <option>What is your Birthdate?</option>
+                    <option>What is Your old Phone Number</option>
+                    <option>What is your Pet Name?</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Enter Your Answer *" value="" />
+                </div> -->
+                  <input type="submit" class="btnRegister" value="Register" />
+                </div>
               </div>
             </div>
-            <button type="submit" class="login-button">
-              <i class="fa fa-chevron-right"></i>
-            </button>
+            <!-- <div class="tab-pane fade show" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+            <h3 class="register-heading">Apply as a Member</h3>
+            <div class="row register-form">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="First Name *" value="" />
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Last Name *" value="" />
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" placeholder="Email *" value="" />
+                </div>
+                <div class="form-group">
+                  <input type="text" maxlength="10" minlength="10" class="form-control" placeholder="Phone *"
+                    value="" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input type="password" class="form-control" placeholder="Password *" value="" />
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control" placeholder="Confirm Password *" value="" />
+                </div>
+                <div class="form-group">
+                  <select class="form-control">
+                    <option class="hidden" selected disabled>Please select your Sequrity Question</option>
+                    <option>What is your Birthdate?</option>
+                    <option>What is Your old Phone Number</option>
+                    <option>What is your Pet Name?</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="`Answer *" value="" />
+                </div>
+                <input type="submit" class="btnRegister" value="Register" />
+              </div>
+            </div>
+          </div> -->
           </div>
-          <div class="etc-login-form">
-            <p>already have an account? <a href="#">login here</a></p>
-          </div>
-        </form>
-      </div> -->
-      <!-- end:Main Form -->
+        </div>
+      </div>
     </div>
-
-    <!-- Optional JavaScript -->
-    <script src="./apply.js"></script>
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>
