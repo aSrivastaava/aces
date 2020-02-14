@@ -2,16 +2,15 @@ body {
   background: -webkit-linear-gradient(left, #3931af, #00c6ff);
 }
 .logo {
-  width: 8%;
-  top: 1vh;
-  left: 50vw;
-}
-.logo:hover {
-  transform: rotate(10deg);
+  /* background-color: white; */
+  position: absolute;
+  width: 19%;
+  top: 0.5vh;
+  left: 45vw;
 }
 .register {
   background: -webkit-linear-gradient(left, #342ca0, #03b3e4);
-  margin-top: 1%;
+  margin-top: 7%;
   padding: 3%;
 }
 .register-left {
@@ -80,32 +79,6 @@ body {
   width: 50%;
   cursor: pointer;
 }
-/* .register .nav-tabs {
-  margin-top: 3%;
-  border: none;
-  background: #0062cc;
-  border-radius: 1.5rem;
-  width: 28%;
-  float: right;
-}
-.register .nav-tabs .nav-link {
-  padding: 2%;
-  height: 34px;
-  font-weight: 600;
-  color: #fff;
-  border-top-right-radius: 1.5rem;
-  border-bottom-right-radius: 1.5rem;
-}
-.register .nav-tabs .nav-link:hover {
-  border: none;
-}
-.register .nav-tabs .nav-link.active {
-  width: 100px;
-  color: #0062cc;
-  border: 2px solid #0062cc;
-  border-top-left-radius: 1.5rem;
-  border-bottom-left-radius: 1.5rem;
-} */
 
 .register-heading {
   text-align: center;
